@@ -10,7 +10,7 @@
 
 # --- Server & Deployment ---
 # Port for the Web Dashboard / Internal API.
-SERVER_PORT: 3003
+SERVER_PORT: 10000
 
 # Optional: Path for IPC UNIX sockets (leave commented unless needed).
 #UNIX_SOCKET_PATH: "/tmp/tct.sock"
