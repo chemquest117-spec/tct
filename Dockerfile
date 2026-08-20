@@ -1,3 +1,3 @@
 FROM tctbot/tctbot:latest
 
-COPY tctfile.yml ./tctfile.yml
+COPY --chmod=666 tctfile.yml ./tctfile.yml
