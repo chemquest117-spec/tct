@@ -63,15 +63,15 @@ DATABASE:
 # Uncomment and fill if your bot uploads media to Cloudinary.
 # ------------------------------------------------------------------------------
 #CLOUDINARY:
-#  CLOUD_NAME: "your_cloud_name"
-#  API_KEY: "your_api_key"
-#  API_SECRET: "your_api_secret"
+CLOUD_NAME: "kwupjevj"
+API_KEY: "264181148839591"
+API_SECRET: "6x2n7_M9xYy_DjCSrlAbiEK4hp8"
 
 # ------------------------------------------------------------------------------
 # POSTGRESQL BACKUP SYNC
 # Optional: Sync your SQLite data to a remote PostgreSQL database.
 # ------------------------------------------------------------------------------
-#POSTGRES_URL: "postgresql://postgres.xxxxxxxxx:x0LO1DIxEY0HvDaX@aws-1-eu-west-1.pooler.supabase.com:5432/postgres"
+POSTGRES_URL: "postgresql://neondb_owner:npg_r6O8WEunUtTj@ep-orange-waterfall-b2mjuh9l.c-6.eu-central-1.aws.neon.tech/neondb?sslmode=require"
 POSTGRES_SYNC_INTERVAL: 60   # Time in seconds.
 
 # ==============================================================================
@@ -123,8 +123,8 @@ BOTS:
   # ========================================
   # BOT 1: Primary (ACTIVE - Uncommented)
   # ========================================
-  - SESSION_ID: "tct_236hgy"              
-    TIMEZONE: "Africa/Nairobi"             
+  - SESSION_ID: "tct_8d18f45d"              
+    TIMEZONE: "Africa/Cairo"             
     PREFIX: "."                           
     #OPENWEATHER_API_KEY: "your_key_here"  
 
@@ -136,13 +136,13 @@ BOTS:
   # ========================================
   # BOT 2: Secondary (ACTIVE )
   # ========================================
-  - SESSION_ID: "tct_jjxjjx992"
-    TIMEZONE: "Afica/Nairobi"
-    PREFIX: "."
-    OPENWEATHER_API_KEY: "key_2"
-    ALIVE_IMAGES: *default_alive_images
-    WELCOME_IMAGES: *default_welcome_images
-    LOCK_SYSTEM: *default_lock_system
+  # - SESSION_ID: "tct_jjxjjx992"
+  #   TIMEZONE: "Afica/Nairobi"
+  #   PREFIX: "."
+  #   OPENWEATHER_API_KEY: "key_2"
+  #   ALIVE_IMAGES: *default_alive_images
+  #   WELCOME_IMAGES: *default_welcome_images
+  #   LOCK_SYSTEM: *default_lock_system
 
   # ========================================
   # BOT 3: 
